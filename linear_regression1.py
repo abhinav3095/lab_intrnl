@@ -1,43 +1,38 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 import pandas as pd
 import numpy as np
-get_ipython().run_line_magic('matplotlib', 'inline')
+%matplotlib inline
 import sklearn
 import seaborn as sn
 from sklearn import datasets, linear_model, metrics
 
 
-# In[2]:
+
 
 
 boston = datasets.load_boston(return_X_y=False)
 
 
-# In[3]:
+
 
 
 X = boston.data
 
 
-# In[4]:
 
 
 X.shape
 
 
-# In[5]:
 
 
 y= boston.target
 y.shape
 
 
-# In[6]:
+
 
 
 boston.keys()
