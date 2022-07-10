@@ -4,7 +4,6 @@
 import pandas as pd
 import numpy as np
 #%matplotlib inline
-import sklearn
 from sklearn import datasets, linear_model, metrics
 
 
