@@ -3,7 +3,7 @@
 
 import pandas as pd
 import numpy as np
-%matplotlib inline
+#%matplotlib inline
 import sklearn
 import seaborn as sn
 from sklearn import datasets, linear_model, metrics
